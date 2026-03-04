@@ -1,0 +1,23 @@
+{
+  "name": "ramhunter-site",
+  "version": "1.0.0",
+  "description": "RamHunter.com - Compare RAM prices across retailers",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve",
+    "clean": "rm -rf _site"
+  },
+  "keywords": [
+    "ram",
+    "memory",
+    "prices",
+    "ddr5",
+    "ddr4",
+    "comparison"
+  ],
+  "author": "RamHunter.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
