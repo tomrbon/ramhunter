@@ -943,6 +943,38 @@
       "reviews": 5678,
       "rating": 4.5,
       "inStock": true
+    },
+    {
+      "id": "ddr5-021",
+      "name": "TeamGroup T-Force Vulcan DDR5-6000 32GB Kit (2x16GB)",
+      "category": "DDR5",
+      "subcategory": "Desktop Gaming",
+      "capacity": 32,
+      "price": 109.99,
+      "pricePerGB": 3.44,
+      "retailer": "Newegg",
+      "condition": "New",
+      "url": "https://www.newegg.com/teamgroup-32gb-ddr5-6000/p/N82E16820374567",
+      "lastUpdated": "2026-03-04",
+      "reviews": 4521,
+      "rating": 4.7,
+      "inStock": true
+    },
+    {
+      "id": "ddr5-021",
+      "name": "Corsair Vengeance DDR5-4800 16GB Kit (2x8GB)",
+      "category": "DDR5",
+      "subcategory": "Desktop Budget",
+      "capacity": 16,
+      "price": 49.99,
+      "pricePerGB": 3.12,
+      "retailer": "Amazon",
+      "condition": "New",
+      "url": "https://www.amazon.com/dp/B09X9VLM45",
+      "lastUpdated": "2026-03-04",
+      "reviews": 4567,
+      "rating": 4.6,
+      "inStock": true
     }
   ]
 }
