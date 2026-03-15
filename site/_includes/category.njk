@@ -1,0 +1,63 @@
+---
+layout: base.njk
+---
+
+<div class="category-page">
+  <header class="category-header">
+    <div class="category-breadcrumb">
+      <a href="/">Home</a>
+      <span class="breadcrumb-sep">/</span>
+      <a href="/categories/">Categories</a>
+      <span class="breadcrumb-sep">/</span>
+      <span>{{ title }}</span>
+    </div>
+    
+    <h1>{{ title }}</h1>
+    
+    {% if description %}
+    <p class="category-subtitle">{{ description }}</p>
+    {% endif %}
+  </header>
+  
+  <div class="category-products">
+    {% if products and products.products %}
+    <div class="product-grid">
+      {% for product in products.products %}
+      {% if product.type == title %}
+      <article class="product-card">
+        <a href="{{ product.url }}" target="_blank" rel="noopener">
+          <div class="product-image">
+            {% if product.image %}
+            <img src="{{ product.image }}" alt="{{ product.name }}" loading="lazy">
+            {% else %}
+            <div class="product-placeholder">🎮</div>
+            {% endif %}
+          </div>
+          <h3 class="product-name">{{ product.name }}</h3>
+          <div class="product-meta">
+            <span class="product-price">${{ product.price | formatNumber }}</span>
+            {% if product.pricePerGb %}
+            <span class="product-price-per-gb">${{ product.pricePerGb | formatNumber }}/GB</span>
+            {% endif %}
+          </div>
+          <div class="product-rating">
+            <div class="stars">
+              {% for i in [1, 2, 3, 4, 5] %}
+              <svg class="star {% if i > product.rating %}empty{% endif %}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+              </svg>
+              {% endfor %}
+            </div>
+            <span class="rating-value">{{ product.rating }}</span>
+            <span class="reviews-count">({{ product.reviews | formatInt }})</span>
+          </div>
+        </a>
+      </article>
+      {% endif %}
+      {% endfor %}
+    </div>
+    {% else %}
+    <p class="no-products">No products found in this category yet.</p>
+    {% endif %}
+  </div>
+</div>

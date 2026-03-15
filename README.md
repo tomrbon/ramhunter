@@ -1,71 +1,70 @@
-# RamHunter.com - RAM Price Comparison
+# ramhunter.com
 
-🎮 **Hunt Down the Best RAM Deals**
+RAM price comparison site. Sorted by price-per-GB. Multi-retailer.
 
-RamHunter.com helps you find the best memory deals by calculating the true cost-per-gigabyte across different RAM types and retailers.
+**Live Site:** https://ramhunter.com (domain pending DNS)  
+**Tech Stack:** 11ty (Eleventy), Cloudflare Pages  
+**GitHub:** github.com/tomrbon/ramhunter
 
-## Features
+## Status
 
-- **Price Per GB Comparison** - Fair comparison across different capacities
-- **Multiple Categories** - DDR5, DDR4, DDR3, SODIMM (laptop), ECC (server)
-- **Real-time Sorting & Filtering** - Find exactly what you need
-- **Best Deal Highlighting** - Automatically marks the best value per category
-- **Affiliate Link Support** - Support the site at no extra cost
+✅ **Site complete** — 61 RAM products, 20 articles  
+⏳ **Awaiting:** Domain registration + DNS configuration
 
-## Tech Stack
+## Content
 
-- [Eleventy](https://www.11ty.dev/) - Static site generator
-- Vanilla JavaScript - Filtering and sorting
-- CSS Custom Properties - Theming
-- Responsive Design - Mobile-first approach
+**61 products** across 5 categories:
+- DDR5
+- DDR4
+- DDR3
+- SODIMM (Laptop)
+- ECC (Server)
 
-## Categories
+**20 articles** covering RAM guides, comparisons, and buying advice.
 
-- 🚀 **DDR5** - Latest generation desktop memory
-- ⚡ **DDR4** - Current generation desktop memory
-- 📀 **DDR3** - Legacy desktop memory
-- 💻 **SODIMM** - Laptop memory (DDR4/DDR5)
-- 🖥️ **ECC** - Server and workstation memory
-
-## Retailers
-
-We compare prices from:
-- Amazon
-- Newegg
-- B&H Photo
-- Best Buy
-- Corsair
-- G.Skill
-- Kingston
-
-## Development
+## Quick Start
 
 ```bash
-# Install dependencies
+cd site
 npm install
-
-# Build the site
 npm run build
-
-# Serve locally
-npm run serve
+npm run serve  # Local dev server at http://localhost:8080
 ```
 
 ## Deployment
 
-This site is designed to be deployed to Cloudflare Pages or any static hosting platform.
+1. Register `ramhunter.com` domain
+2. Point DNS to Cloudflare Pages
+3. Push to GitHub — auto-deploys via Cloudflare
 
-```bash
-# Build for production
-npm run build
+## Project Structure
+
+```
+ramhunter/
+├── site/
+│   ├── _data/           # Product data (products.json)
+│   ├── _includes/       # Templates
+│   ├── css/             # Styles
+│   ├── js/              # Client-side JS
+│   ├── posts/           # 20 blog articles
+│   └── .eleventy.js     # 11ty config
+├── .gitignore
+├── package.json
+└── README.md            # This file
 ```
 
-The output goes to `_site/` directory.
+## Next Steps
 
-## License
+1. Register domain (ramhunter.com)
+2. Configure Cloudflare Pages custom domain
+3. Update affiliate links
+4. Launch
 
-MIT
+## Related Projects
+
+- **diskprices.info** — Storage price comparison (same stack, live)
+- **easyhtpc.com** — HTPC guides (same stack, live)
 
 ---
 
-**Affiliate Disclosure:** This site earns commissions from qualifying purchases through affiliate links at no extra cost to you.
+Built with [11ty](https://www.11ty.dev/) • Hosted on [Cloudflare Pages](https://pages.cloudflare.com/)

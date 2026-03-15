@@ -7,7 +7,12 @@ image: "https://images.unsplash.com/photo-1591799264318-9c13b4e3aaf7?w=800&h=400
 layout: article.njk
 ---
 
-*Affiliate Disclosure: RamHunter.com may earn a commission on purchases made through our affiliate links. This doesn't affect our recommendations or reviews.*
+<div class="affiliate-disclosure">
+  <p>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+    <strong>Affiliate Disclosure:</strong> We may earn commissions from purchases made through links on this page. This doesn't affect our recommendations—we only suggest products we believe in. Learn more in our <a href="/privacy/">Privacy Policy</a>.
+  </p>
+</div>
 
 ---
 
@@ -357,16 +362,8 @@ If you've decided on DDR5, here are our top picks:
 - G.Skill Trident Z5 Royal DDR5-7200 CL34 (32GB) — Premium performance
 - Corsair Dominator Titanium DDR5-6400 CL32 (32GB) — Premium build quality
 
-{% include "affiliate-box.njk" with {
-  title: "G.Skill Flare X5 DDR5-6000 CL30 32GB",
-  description: "The sweet spot for AMD AM5 builds—optimized EXPO profile for Ryzen 7000",
-  link: "https://www.amazon.com/dp/B0B4FSJWQX?tag=ramhunter-20"
-} %}
+{% affiliateBox "G.Skill Flare X5 DDR5-6000 CL30 32GB", "The sweet spot for AMD AM5 builds—optimized EXPO profile for Ryzen 7000", "https://www.amazon.com/dp/B0B4FSJWQX?tag=ramhunter-20" %}
 
-{% include "affiliate-box.njk" with {
-  title: "Corsair Vengeance DDR5-6000 CL30 32GB",
-  description: "Reliable, compatible, and affordable DDR5 for Intel or AMD",
-  link: "https://www.amazon.com/dp/B0B5LZB3H7?tag=ramhunter-20"
-} %}
+{% affiliateBox "Corsair Vengeance DDR5-6000 CL30 32GB", "Reliable, compatible, and affordable DDR5 for Intel or AMD", "https://www.amazon.com/dp/B0B5LZB3H7?tag=ramhunter-20" %}
 
 *Check current pricing and availability. RAM prices fluctuate frequently.*

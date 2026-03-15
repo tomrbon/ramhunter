@@ -1,0 +1,41 @@
+---
+layout: base.njk
+title: "Browse by Category"
+description: "Shop RAM by category: DDR5, DDR4, DDR3, SODIMM, and ECC memory modules"
+---
+
+<div class="categories-page">
+  <header class="page-header">
+    <h1>Browse RAM by Category</h1>
+    <p class="page-subtitle">Find the perfect memory for your needs</p>
+  </header>
+  
+  <div class="category-grid">
+    {% for category in categories %}
+    <article class="category-card">
+      <a href="/categories/{{ category | slug }}/">
+        <div class="category-icon">
+          {% if category == 'DDR5' %}🚀
+          {% elif category == 'DDR4' %}⚡
+          {% elif category == 'DDR3' %}💾
+          {% elif category == 'SODIMM' %}💻
+          {% elif category == 'ECC' %}🖥️
+          {% endif %}
+        </div>
+        <h2>{{ category }}</h2>
+        <p>
+          {% if category == 'DDR5' %}Latest generation DDR5 memory for cutting-edge performance
+          {% elif category == 'DDR4' %}Popular DDR4 memory for mainstream builds
+          {% elif category == 'DDR3' %}Legacy DDR3 for older systems
+          {% elif category == 'SODIMM' %}Laptop and small form factor memory
+          {% elif category == 'ECC' %}Error-correcting memory for workstations and servers
+          {% endif %}
+        </p>
+        <div class="category-cta">
+          Browse {{ category }} →
+        </div>
+      </a>
+    </article>
+    {% endfor %}
+  </div>
+</div>

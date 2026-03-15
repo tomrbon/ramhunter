@@ -121,11 +121,7 @@ In DaVinci Resolve, DDR5-6400 improves 4K timeline scrubbing smoothness by 12-15
 - Content creators building new workstations
 - Professionals who bill by the hour
 
-{% include "affiliate-box.njk" with {
-  title: "Kingston FURY Renegade DDR5-6400 64GB",
-  description: "High-speed DDR5 optimized for workstation performance",
-  link: "https://www.amazon.com/dp/B0CJYYF5H7?tag=ramhunter-20"
-} %}
+{% affiliateBox "Kingston FURY Renegade DDR5-6400 64GB", "High-speed DDR5 optimized for workstation performance", "https://www.amazon.com/dp/B0CJYYF5H7?tag=ramhunter-20" %}
 
 ### Best for 8K/High-End Workstations: G.Skill Trident Z5 RGB DDR5-6800 128GB
 
@@ -150,11 +146,7 @@ When 4K isn't enough and you're grading 6K/8K footage, 128GB becomes necessary. 
 - Colorists working with RAW footage
 - Post-production facilities
 
-{% include "affiliate-box.njk" with {
-  title: "G.Skill Trident Z5 RGB DDR5-6800 128GB",
-  description: "Flagship DDR5 for professional 8K video editing workstations",
-  link: "https://www.amazon.com/dp/B0CHXJYJ3K?tag=ramhunter-20"
-} %}
+{% affiliateBox "G.Skill Trident Z5 RGB DDR5-6800 128GB", "Flagship DDR5 for professional 8K video editing workstations", "https://www.amazon.com/dp/B0CHXJYJ3K?tag=ramhunter-20" %}
 
 ### Best Budget DDR5: Silicon Power DDR5-5600 64GB
 
@@ -179,11 +171,7 @@ For 1080p and 4K editing, DDR5-5600 performs within 5-8% of DDR5-6400 in timelin
 - Adobe Premiere Pro users
 - New workstation builders watching costs
 
-{% include "affiliate-box.njk" with {
-  title: "Silicon Power DDR5-5600 64GB",
-  description: "Budget-friendly DDR5 with 64GB capacity for video editing",
-  link: "https://www.amazon.com/dp/B0BPPQK9R5?tag=ramhunter-20"
-} %}
+{% affiliateBox "Silicon Power DDR5-5600 64GB", "Budget-friendly DDR5 with 64GB capacity for video editing", "https://www.amazon.com/dp/B0BPPQK9R5?tag=ramhunter-20" %}
 
 ### Best for Mac Users: OWC DDR5-6400 96GB (Mac Studio Upgrade)
 
@@ -207,11 +195,7 @@ Final Cut Pro on M2/M3 Ultra with 96GB unified memory edits 8K ProRes smoothly. 
 - DaVinci Resolve users preferring Mac
 - Editors working with ProRes workflows
 
-{% include "affiliate-box.njk" with {
-  title: "OWC DDR5 Memory Upgrades",
-  description: "Reliable memory upgrades for Mac workstation configurations",
-  link: "https://www.amazon.com/s?k=OWC+DDR5+RAM&tag=ramhunter-20"
-} %}
+{% affiliateBox "OWC DDR5 Memory Upgrades", "Reliable memory upgrades for Mac workstation configurations", "https://www.amazon.com/s?k=OWC+DDR5+RAM&tag=ramhunter-20" %}
 
 ## Video Editing RAM Recommendations
 

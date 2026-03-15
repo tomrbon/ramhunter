@@ -133,11 +133,7 @@ At 1080p with a mid-range GPU, expect within 2-3% of premium DDR4-4000+ performa
 - Gamers prioritizing GPU budget
 - Anyone wanting 32GB without overspending
 
-{% include "affiliate-box.njk" with {
-  title: "Silicon Power DDR4-3600 32GB",
-  description: "Best value DDR4 kit - perfect for budget gaming builds",
-  link: "https://www.amazon.com/dp/B08GP8Z4CJ?tag=ramhunter-20"
-} %}
+{% affiliateBox "Silicon Power DDR4-3600 32GB", "Best value DDR4 kit - perfect for budget gaming builds", "https://www.amazon.com/dp/B08GP8Z4CJ?tag=ramhunter-20" %}
 
 ### Best Budget DDR5 RAM: Silicon Power DDR5-5600 32GB
 
@@ -161,11 +157,7 @@ DDR5-5600 delivers about 95% of DDR5-6000 gaming performance. The CL36 latency i
 - Intel DDR5 budget builds
 - Gamers wanting DDR5 benefits at lowest cost
 
-{% include "affiliate-box.njk" with {
-  title: "Silicon Power DDR5-5600 32GB",
-  description: "Most affordable 32GB DDR5 kit - great for AM5 builds",
-  link: "https://www.amazon.com/dp/B0BGQK3L9S?tag=ramhunter-20"
-} %}
+{% affiliateBox "Silicon Power DDR5-5600 32GB", "Most affordable 32GB DDR5 kit - great for AM5 builds", "https://www.amazon.com/dp/B0BGQK3L9S?tag=ramhunter-20" %}
 
 ### Best DDR4 Budget RAM for Intel: TeamGroup T-Force Vulcan Z DDR4-3200 32GB
 
@@ -189,11 +181,7 @@ Expect about 5-7% lower FPS than DDR4-3600 at 1080p competitive gaming. At 1440p
 - Intel systems where every dollar counts
 - Secondary/backup gaming PCs
 
-{% include "affiliate-box.njk" with {
-  title: "TeamGroup T-Force Vulcan Z DDR4-3200 32GB",
-  description: "Ultra-budget DDR4 - 32GB for under $60",
-  link: "https://www.amazon.com/dp/B08JQDRZSM?tag=ramhunter-20"
-} %}
+{% affiliateBox "TeamGroup T-Force Vulcan Z DDR4-3200 32GB", "Ultra-budget DDR4 - 32GB for under $60", "https://www.amazon.com/dp/B08JQDRZSM?tag=ramhunter-20" %}
 
 ### Best DDR5 Budget RAM for AMD: TeamGroup T-Force Delta DDR5-6000 32GB
 
@@ -217,11 +205,7 @@ On AMD AM5, DDR5-6000 delivers within 1-2% of DDR5-6400 performance. The CL38 ti
 - Gamers who want the AMD sweet spot
 - Those willing to spend $10-15 more for 6000MHz
 
-{% include "affiliate-box.njk" with {
-  title: "TeamGroup T-Force Delta DDR5-6000 32GB",
-  description: "AMD sweet spot - DDR5-6000 at budget pricing",
-  link: "https://www.amazon.com/dp/B0BFK4WQG9?tag=ramhunter-20"
-} %}
+{% affiliateBox "TeamGroup T-Force Delta DDR5-6000 32GB", "AMD sweet spot - DDR5-6000 at budget pricing", "https://www.amazon.com/dp/B0BFK4WQG9?tag=ramhunter-20" %}
 
 ## Budget RAM Comparison Table
 

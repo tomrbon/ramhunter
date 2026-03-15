@@ -1,0 +1,79 @@
+<div class="affiliate-box">
+  <div class="affiliate-box-header">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+    <strong>Shop This Pick</strong>
+  </div>
+  <div class="affiliate-box-content">
+    <p class="affiliate-box-title">{{ title }}</p>
+    <p class="affiliate-box-desc">{{ description }}</p>
+    <a href="{{ link }}" target="_blank" rel="noopener" class="affiliate-box-btn">
+      Check Price
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+    </a>
+  </div>
+  <p class="affiliate-box-disclosure">
+    <small>We may earn a commission from this link at no extra cost to you.</small>
+  </p>
+</div>
+
+<style>
+.affiliate-box {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+  border: 1px solid rgba(102, 126, 234, 0.3);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+}
+
+.affiliate-box-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  color: #a78bfa;
+  font-weight: 600;
+}
+
+.affiliate-box-content {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.affiliate-box-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+  margin: 0;
+}
+
+.affiliate-box-desc {
+  color: #888;
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.affiliate-box-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  padding: 0.75rem 1.25rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  width: fit-content;
+}
+
+.affiliate-box-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.affiliate-box-disclosure {
+  margin-top: 1rem;
+  color: #666;
+  font-size: 0.85rem;
+}
+</style>

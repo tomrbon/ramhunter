@@ -7,7 +7,12 @@ image: "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=800&h=400
 layout: article.njk
 ---
 
-**Affiliate Disclosure:** RamHunter.com earns commissions from qualifying purchases through our affiliate links at no extra cost to you. This helps support our testing and reviews.
+<div class="affiliate-disclosure">
+  <p>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+    <strong>Affiliate Disclosure:</strong> We may earn commissions from purchases made through links on this page. This doesn't affect our recommendations—we only suggest products we believe in. Learn more in our <a href="/privacy/">Privacy Policy</a>.
+  </p>
+</div>
 
 ---
 
@@ -59,11 +64,7 @@ With 16GB, you'll have headroom for:
 - Occasional photo editing in Photoshop
 - System updates running in the background
 
-{% include "affiliate-box.njk" with {
-  title: "Corsair Vengeance DDR5 32GB Kit",
-  description: "Perfect for most users - great value and reliable performance",
-  link: "https://www.amazon.com/dp/B0B5LZB3H7?tag=ramhunter-20"
-} %}
+{% affiliateBox "Corsair Vengeance DDR5 32GB Kit", "Perfect for most users - great value and reliable performance", "https://www.amazon.com/dp/B0B5LZB3H7?tag=ramhunter-20" %}
 
 **Gaming: The Moving Target**
 
@@ -207,11 +208,7 @@ The DDR5 transition doesn't change *how much* RAM you need—it changes *how you
 **Practical Impact:**
 DDR5 makes 32GB more accessible (2x16GB is the new standard) and enables 96GB builds with just two DIMMs (2x48GB). If you're building new, DDR5 is the clear choice. If upgrading an existing DDR4 system, stick with DDR4 unless you're replacing the entire platform.
 
-{% include "affiliate-box.njk" with {
-  title: "G.Skill Flare X5 DDR5 32GB 6000MHz CL30",
-  description: "Best value for AMD Ryzen builds - optimized EXPO profile",
-  link: "https://www.amazon.com/dp/B0B4YJGZJ9?tag=ramhunter-20"
-} %}
+{% affiliateBox "G.Skill Flare X5 DDR5 32GB 6000MHz CL30", "Best value for AMD Ryzen builds - optimized EXPO profile", "https://www.amazon.com/dp/B0B4YJGZJ9?tag=ramhunter-20" %}
 
 ## Memory Upgrade Path: Planning for the Future
 
